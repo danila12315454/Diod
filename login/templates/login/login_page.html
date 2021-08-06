@@ -1,8 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+{% load static %}
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="C:/Users/danil/WP/Python/Diod/diod/login/templates/login/login_page.css">
+    <link rel="stylesheet" href="{%static 'css/login_page.css'%}">
     <title>НеВК</title>
 </head>
 <body>
@@ -10,8 +10,8 @@
     <form>
         <div class="container">
             <div class="header">
-                <img src="C:/Users/danil/WP/Python/Diod/diod/login/templates/login/Diod_white.png" alt="logo"/>
-                <h1>Diod</h1>
+                <img src="{%static 'images/Diod_white.png'%}" alt="logo"/>
+                <h1>DIOD</h1>
             </div>
             <br>
             <h2>Register</h2>

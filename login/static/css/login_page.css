@@ -37,6 +37,7 @@ p {
 hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
+
 }
 
 /* Set a style for the submit/register button */
@@ -64,10 +65,13 @@ hr {
 
 form {
     background-color: #2f3136;
+    width: 25%;
+    margin: auto;
 }
 
 body {
     background-color: #36393f;
+    font-family: sans-serif;
 }
 
 form {
@@ -81,11 +85,13 @@ label {
 .header img {
   float: left;
   width: 100px;
+  left: 0%;
 }
 
 .header h1 {
 color: white;
   position: relative;
-  top: 18px;
-  left: 30px;
+  font-size: 350%;
+  left: 10%;
+  top: 30%;
 }
