@@ -1,0 +1,69 @@
+.container {
+  padding: 16px;
+  background-color: #36393f;
+  margin: left;
+  width: 250px;
+  height: 300px;
+  border-radius: 12px;
+  align: center;
+  float: left;
+}
+
+.up_line_container {
+  padding: 16px;
+  background-color: #36393f;
+  margin: auto;
+  border-radius: 12px;
+}
+
+.acc_info_container {
+  
+  background-color: #36393f;
+  border-radius: 12px;
+
+}
+
+.align-centre {
+  margin-left: 23%;
+}
+
+.align-left {
+  margin: left;
+}
+
+.align-right {
+  margin: right;
+}
+
+button {
+  background-color: #36393f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.profile_photo {
+    margin: 6%;
+    border-radius: 100px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #2f3136;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+table {
+    width: 100%;
+    font-size: 30px;
+    background-color: #36393f;
+    color: #ffffff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 12px;
+}

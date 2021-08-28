@@ -1,0 +1,30 @@
+{% load static %}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{%static 'login/css/login_page.css'%}">
+    <title>НеВК</title>
+</head>
+<body>
+    <form action="/login/" method="post">
+        {% csrf_token %}
+
+        <div class="container">
+            <div class="header">
+                <img src="{%static 'login/images/Diod_white.png'%}" alt="logo"/>
+                <h1>DIOD</h1>
+            </div>
+            <br>
+            <h2>Register</h2>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+            {{ form.as_p }}
+            <hr>
+            <button type="submit" class="registerbtn">Register</button>
+            <p><font size=3 color="red">{{ ERR }}</font></p>
+
+        </div>
+    </form>
+
+</body>
+</html>

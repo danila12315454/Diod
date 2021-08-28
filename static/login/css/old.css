@@ -1,0 +1,98 @@
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=email], input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+
+input[type=email]:focus, input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+h2 {
+    color: white;
+}
+
+img {
+    position: relative;
+}
+
+p {
+    color: white;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #36393f;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 20px;
+}
+
+.registerbtn: hover {
+  opacity:1;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+form {
+    background-color: #2f3136;
+    width: 25%;
+    margin: auto;
+    min-width: 450px;
+}
+
+body {
+    background-color: #36393f;
+    font-family: sans-serif;
+}
+
+form {
+    border-radius: 20px;
+}
+
+label {
+    color: white;
+}
+
+.header img {
+  float: left;
+  width: 100px;
+  left: 0%;
+}
+
+.header h1 {
+color: white;
+  position: relative;
+  font-size: 350%;
+  left: 10%;
+  top: 30%;
+}

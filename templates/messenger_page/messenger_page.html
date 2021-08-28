@@ -1,0 +1,46 @@
+{% load static %}
+{% if is_owner %}
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+          <title>messenger</title>
+          <link rel="stylesheet" href="{%static 'messenger_page/css/messenger_page.css'%}">
+    </head>
+
+
+    <body>
+      <table>
+        <tr>
+          <td><a>Posts</a></td>
+          <td><a class="active">Messenger</a></td>
+          <td><a href="/profile/{{ obj.login }}">Profile</a></td>
+          <td><a href="/login/">sign out</a></td>
+        </tr>
+      </table>
+        <button class="active">chat1</button>
+        <button>chat2</button>
+        <button>chat3</button>
+        <button>chat4</button>
+        <button>chat5</button>
+        <button>chat6</button>
+        <button>chat7</button>
+        <button>chat8</button>
+    </body>
+    <div class="container">
+      <p class="other">привет</p>
+      <p class="my">пока лох ёбаный</p>
+
+
+
+
+    </div>
+        <form method="post">
+    <textarea></textarea>
+    <button class="send" type="submit"></button>
+    </form>
+</html>
+{% endif %}
+{% if is_owner == False %}
+<h1>Это не ваша страницаю.(Yfqc kj[)</h1>
+{% endif %}
